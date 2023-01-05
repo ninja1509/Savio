@@ -1,0 +1,33 @@
+*{
+    margin-bottom: 20px;
+    /* border: solid; */
+}
+
+body{
+    background-color: black;
+}
+label,span {
+    font-size: 30px;
+}
+
+input{
+    height: 30px;
+    font-size: 25px;
+}
+
+button{
+    font-size: 30px;
+}
+
+.main{
+
+    border-radius: 20px;
+    width: 40%;
+    padding: 30px;
+    background-color: white;
+}
+
+p{
+    font-size: 35px;
+    
+}

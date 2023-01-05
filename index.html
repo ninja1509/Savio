@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <p><b> Savio's Personal Calculator </b></p>
+
+        <label> Monthly salary </label>
+        <input type="number" id="monthlySal">
+
+        <br>
+
+        <label> Number of days in this month </label>
+        <input type="number" id="days">
+
+        <br> 
+
+        <label> Total  <mark>leaves</mark> taken in this month </label>
+        <input type="number" id="leave">
+        
+        <br>
+
+        <button onclick="calculate()">Calculate</button> <br>
+        
+        <label> <b>Total salary for this month: </b></label>
+        
+        <span id="finalSal"></span>
+    </div>
+    
+</body>
+</html>
